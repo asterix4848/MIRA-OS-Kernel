@@ -1,0 +1,13 @@
+# Upstream source trees and local build output
+/linux-6.18/
+/build/
+*.deb
+*.rpm
+*.tar
+*.tar.gz
+*.tar.xz
+*.log
+
+# Kernel-generated local configurations
+/.config
+/.config.old
